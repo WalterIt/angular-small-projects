@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "project4": {
+    "ng6-material": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/project4",
+            "outputPath": "dist/ng6-material",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -50,18 +50,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "project4:build"
+            "browserTarget": "ng6-material:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "project4:build:production"
+              "browserTarget": "ng6-material:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "project4:build"
+            "browserTarget": "ng6-material:build"
           }
         },
         "test": {
@@ -95,7 +95,7 @@
         }
       }
     },
-    "project4-e2e": {
+    "ng6-material-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "architect": {
@@ -103,11 +103,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "project4:serve"
+            "devServerTarget": "ng6-material:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "project4:serve:production"
+              "devServerTarget": "ng6-material:serve:production"
             }
           }
         },
@@ -123,5 +123,5 @@
       }
     }
   },
-  "defaultProject": "project4"
+  "defaultProject": "ng6-material"
 }

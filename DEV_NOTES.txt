@@ -1,0 +1,4 @@
+NEWS APP
+
+https://newsapi.org/register
+Your API key is: af00eeb79895410da1a73496cad0363e
